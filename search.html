@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Leetcode Problem</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form action="https://leetcode.com/problemset/all/" target="_blank" method="get" id="search-box" onsubmit="encodeURI(this)">
+      <input type="search" name="search" autocomplete="off" class="form-control" placeholder="Search Leetcode problems..." />
+      <input type="submit" value="Search" class="btn btn-primary btn-block" />
+    </form>
+
+    <script>
+      function encodeURI(form) {
+        alert(1)
+        form.elements['search'].value = encodeURIComponent(form.elements['search'].value);
+      }
+    </script>
+  </body>
+</html>
