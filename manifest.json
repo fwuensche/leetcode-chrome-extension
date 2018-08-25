@@ -6,6 +6,15 @@
     "default_popup": "hello.html",
     "default_icon": "hello_extensions.png"
   },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": [
+        "jquery.js",
+        "script.js"
+      ]
+    }
+  ],
   "manifest_version": 2,
   "commands": {
     "_execute_browser_action": {
