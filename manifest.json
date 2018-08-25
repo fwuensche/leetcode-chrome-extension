@@ -1,10 +1,10 @@
 {
-  "name": "Leetcode Solutions",
-  "description" : "Add button with link to YouTube solutions for each Leetcode problem",
+  "name": "Leetcode TA",
+  "description" : "Add button with link to YouTube solutions for every Leetcode problem (for now)",
   "version": "0.0.1",
   "browser_action": {
-    "default_popup": "search.html"
-    // "default_icon": "hello_extensions.png"
+    "default_popup": "search.html",
+    "default_icon": "leetcode_logo.png"
   },
   "content_scripts": [
     {
