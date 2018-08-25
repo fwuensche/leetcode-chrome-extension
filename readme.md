@@ -1,16 +1,16 @@
-# Leetcode TA
+# LeetCode TA
 
-Simple chrome extension that creates UI elements to make your life easier on Leetcode.
+Simple chrome extension that creates UI elements to make your life easier on LeetCode.
 
 ---
 
 So far we can help you:
 
-- search a leetcode problem
+- search a LeetCode problem
 
 ![use extension to search problems](img/search-popup.png)
 
-- find Youtube video solutions
+- find YouTube video solutions
 
 ![button to youtube video solutions](img/yt-btn.png)
 
