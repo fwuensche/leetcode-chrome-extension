@@ -1,6 +1,6 @@
 {
   "name": "LeetCode Python Assistant",
-  "description" : "Makes your Python development more efficient on LeetCode. The extension adds a link to YouTube explanations, automatically filters and sorts top rated python solutions, and more.",
+  "description" : "Makes your Python development more efficient on LeetCode.",
   "version": "0.1.0",
   "browser_action": {
     "default_popup": "search.html",
