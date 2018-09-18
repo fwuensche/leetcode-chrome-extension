@@ -1,7 +1,7 @@
 {
-  "name": "LeetCode TA",
-  "description" : "Add button with link to YouTube solutions for every LeetCode problem (for now)",
-  "version": "0.0.1",
+  "name": "LeetCode Python Assistant",
+  "description" : "Makes your Python development more efficient on LeetCode. The extension adds a link to YouTube explanations, automatically filters and sorts top rated python solutions, and more.",
+  "version": "0.1.0",
   "browser_action": {
     "default_popup": "search.html",
     "default_icon": "img/lc-logo.png"
@@ -10,10 +10,13 @@
     {
       "matches": ["https://leetcode.com/problems/*"],
       "js": [
-        "jquery.js",
-        "script.js"
+        "js/vendor/jquery.js",
+        "js/problems.js"
       ]
     }
   ],
+  "icons": {
+    "144": "img/icon_144.png"
+  },
   "manifest_version": 2
 }
